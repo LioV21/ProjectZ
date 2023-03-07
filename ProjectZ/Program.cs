@@ -62,9 +62,12 @@
             }
 
             // Display user profile summary
+            
+            Console.WriteLine("===== User Profile Summary =====");
             Console.WriteLine($"Name: {lastName}, {firstName}");
             Console.WriteLine($"Age: {DateTime.Now.Year - birthYear}");
             Console.WriteLine($"Gender: {GetGenderDescription(gender)}");
+            
 
             Console.WriteLine("************ Your Responses ************");
 
